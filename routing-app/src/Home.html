@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <title>Result Calculator</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Result Calculator</h1>
+      </div>
+    </header>
+
+    <div class="tag">
+      <div class="heading">
+        <span>Select your details below</span>
+      </div>
+    </div>
+
+    <div class="container">
+<!-- department and semester mentioned here -->
+      <div class="detail" id="detail">
+        <div class="department">
+          <label for="dept">Department</label> 
+          <select name="dept" id="dept"> 
+              <option value="CS" selected>CS</option> 
+              <option value="AI">AI</option> 
+              <option value="AIDS">AIDS</option> 
+              <option value="IT">IT</option> 
+              <option value="ECE">ECE</option> 
+              <option value="ME">ME</option> 
+              <option value="CE">CE</option> 
+              <option value="EE">EE</option>
+          </select>
+        </div>
+        <div class="branch">
+          <label for="sem">Semester</label> 
+          <select name="sem" id="sem"> 
+            <option value="0" selected>1st Semester</option>
+            <option value="1">2nd Semester</option>
+            <option value="2">3rd Semester</option>
+            <option value="3">4th Semester</option>
+            <option value="4">5th Semester</option>
+            <option value="5">6th Semester</option>
+            <option value="6">7th Semester</option>
+            <option value="7">8th Semester</option>
+          </select>
+        </div>
+      </div>
+<!-- button to submit info and take to the grading page using onclick event -->
+      <div class="">
+        <button id="submit" onclick="handleSubmit()" >Submit</button>
+      </div>
+    </div>
+<!-- container div ends here -->
+<!-- footer note -->
+    <div class="note">
+      <span>*This only helps you to calculate for rtu results </span>
+    </div>
+  <script src="SubjectForm.js" >
+  </script>
+  </body>
+</html>

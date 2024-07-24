@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+select, input {
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  select, input {
+    width: 100%;
+  }
+}
+

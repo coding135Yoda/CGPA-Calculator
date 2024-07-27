@@ -15,7 +15,7 @@ const SubjectForm = ({ department, semester, setStep, setMarks }) => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h2>Enter Marks for {department} - Semester {semester}</h2>
       {Object.keys(subjects).map((subject) => (
         <div key={subject}>

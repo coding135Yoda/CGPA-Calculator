@@ -1,3 +1,39 @@
+# **CGPA Calculator**
+
+*Summary:*  
+The "CGPA Calculator" website project is a tool for students to effortlessly calculate their CGPA by inputting their grades and credits. It provides a user-friendly interface that simplifies academic performance tracking.
+
+## **Project Overview:**
+
+- **Purpose:** A web application designed to help students calculate their CGPA (Cumulative Grade Point Average) by inputting their grades and credits.
+
+- **Technology Stack:**
+  - **Frontend:** ReactJS for building interactive user interfaces.
+  - **Rendering:** Utilized React's rendering capabilities to dynamically update the CGPA based on user input.
+  - **JavaScript:** Handled the logic for grade and credit calculations.
+  - **HTML & CSS:** Structured the layout and styled the application for a user-friendly experience.
+
+## **Development Process:**
+
+- **ReactJS Setup:** Initialized the project with ReactJS, setting up the components for input fields (grades, credits) and result display.
+- **State Management:** Managed user input and calculated CGPA using React's state and hooks (`useState`, `useEffect`).
+- **Responsive Design:** Ensured the application is responsive using CSS for seamless use across devices.
+- **User Input Validation:** Implemented JavaScript functions to validate user inputs and prevent errors during calculation.
+
+## **Deployment:**
+
+- **Vercel Deployment:**
+  - **Setup:** Configured the project for deployment on Vercel, linking the GitHub repository for continuous deployment.
+  - **Build Process:** Vercel automatically built the React application and optimized it for production.
+  - **Hosting:** Deployed the project on Vercel, making it accessible via a live URL with automatic updates on new commits.
+
+## **Final Output:**
+
+The project resulted in a fully functional and responsive CGPA calculator accessible online, providing students with a reliable tool to manage their academic performance.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
